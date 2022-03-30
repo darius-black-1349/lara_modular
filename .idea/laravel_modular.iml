@@ -7,6 +7,12 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/tests/Unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/Darius/User" isTestSource="false" packagePrefix="Darius\User\" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/Darius/Dashboard" isTestSource="false" packagePrefix="Darius\Dashboard\" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/Darius/Category" isTestSource="false" packagePrefix="Darius\Category\" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/Darius/RolePermissions" isTestSource="false" packagePrefix="Darius\RolePermissions\" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/Darius/Course" isTestSource="false" packagePrefix="Darius\Course\" />
+      <sourceFolder url="file://$MODULE_DIR$/modules/Darius/Media" isTestSource="false" packagePrefix="Darius\Media\" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
@@ -105,6 +111,10 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/fideloper/proxy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/phpspec/prophecy" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/ui" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/spatie/laravel-permission" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/intervention/image" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/darius/common" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

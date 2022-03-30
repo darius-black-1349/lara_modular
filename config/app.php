@@ -80,7 +80,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'fa',
 
     /*
     |--------------------------------------------------------------------------
@@ -162,6 +162,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+
         /*
          * Package Service Providers...
          */
@@ -174,6 +175,13 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        \Darius\RolePermissions\Providers\RolePermissionsServiceProvider::class,
+        \Darius\User\Providers\UserServiceProvider::class,
+        \Darius\Dashboard\Providers\DashboardServiceProvider::class,
+        \Darius\Category\Providers\CategoryServiceProvider::class,
+        \Darius\Course\Providers\CourseServiceProvider::class,
+        \Darius\Media\Providers\MediaServiceProvider::class,
 
     ],
 
@@ -226,6 +234,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Image' => Intervention\Image\Facades\Image::class
 
     ],
 

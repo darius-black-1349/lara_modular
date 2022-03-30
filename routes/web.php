@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Darius\User\Models\User;
+use Darius\User\Mail\VerifyCodeMail;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
+});
+
+Route::get('/test', function () {
+    /*\Spatie\Permission\Models\Permission::create(['name' => 'manage own categories']);
+    auth()->user()->givePermissionTo('manage own categories');
+    return auth()->user()->permissions;*/
+
+    /*return auth()->user()->assignRole('teacher');*/
 });
